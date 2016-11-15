@@ -1,0 +1,22 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+#textFormat {
+	font-size: 16px;
+}
+
+#childName {
+	max-width: 200px;
+	height: 20px;
+	border: 1px dotted black;
+	margin: auto;
+}
+
+#form {
+  font-size: 16px;
+
+}

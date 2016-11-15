@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JTA Enter Student</title>
+</head>
+<link rel="stylesheet" href="..\stylesheets\css\SignIn.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<body>
+  <img src="..\images\MainLogo.jpg" width="30%">
+  <hr>
+  	<div ng-app="jtaEnter" ng-controller="formCtrl">
+      <form id="form">
+            <label>First Name</label><br>
+            <input type="text" ng-model="person.firstname"><br><br>
+            <label>Last Name</label><br>
+            <input type="text" ng-model="person.lastname"><br><br>
+            <label>PIN</label><br>
+            <input type="text" ng-model="person.pin" ng-maxlength="4"><br><br>
+						<button ng-submit="submit()">SUBMIT</button>
+						<button ng-click="reset()">RESET</button>
+      </form><br>
+    </div>
+  <script type="text/javascript" src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </body>
+  </html>
